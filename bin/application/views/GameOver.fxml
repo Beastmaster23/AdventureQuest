@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <center>
+      <Pane prefHeight="700.0" prefWidth="800.0" BorderPane.alignment="CENTER">
+         <children>
+            <Pane fx:id="gameOverPane" layoutX="319.0" layoutY="250.0">
+               <children>
+                  <Rectangle arcHeight="50.0" arcWidth="50.0" fill="#95c6f5" height="100.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+                  <Text layoutX="70.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Game Over" />
+               </children>
+            </Pane>
+            <Button layoutX="355.0" layoutY="378.0" mnemonicParsing="false" onAction="#goToStartMenu" text="Return to Start Menu" />
+         </children>
+      </Pane>
+   </center>
+</BorderPane>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="backgroundImageView" fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="attackButton" layoutX="248.0" layoutY="425.0" mnemonicParsing="false" onAction="#attackButtonPressed" text="Attack" />
+      <Button fx:id="fleeButton" layoutX="520.0" layoutY="425.0" mnemonicParsing="false" onAction="#fleeButtonPressed" text="Flee" />
+      <ImageView fx:id="playerImage" fitHeight="150.0" fitWidth="200.0" layoutX="56.0" layoutY="181.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="enemyImage" fitHeight="150.0" fitWidth="200.0" layoutX="518.0" layoutY="187.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="playerName" layoutX="56.0" layoutY="100.0" text="You" textFill="#1dff00">
+         <font>
+            <Font name="Consolas Bold" size="18.0" />
+         </font></Label>
+      <Label fx:id="enemyName" layoutX="518.0" layoutY="100.0" text="Them" textFill="RED">
+         <font>
+            <Font name="Consolas Bold" size="18.0" />
+         </font></Label>
+      <TextArea fx:id="infoBox" editable="false" layoutX="248.0" layoutY="470.0" prefHeight="71.0" prefWidth="305.0" />
+      <Label fx:id="playerHPLabel" layoutX="131.0" layoutY="159.0" text="Label" textFill="#1dff00">
+         <font>
+            <Font name="Consolas Bold" size="18.0" />
+         </font></Label>
+      <Label fx:id="enemyHPLabel" layoutX="593.0" layoutY="159.0" text="Label" textFill="RED">
+         <font>
+            <Font name="Consolas Bold" size="18.0" />
+         </font></Label>
+      <ProgressBar fx:id="playerHealthBar" layoutX="56.0" layoutY="131.0" prefWidth="200.0" progress="0.0" />
+      <ProgressBar fx:id="enemyHealthBar" layoutX="518.0" layoutY="131.0" prefWidth="200.0" progress="0.0" />
+   </children>
+</AnchorPane>

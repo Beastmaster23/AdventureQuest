@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Separator layoutX="396.0" layoutY="1.0" orientation="VERTICAL" prefHeight="400.0" prefWidth="5.0" />
+      <ImageView fitHeight="63.0" fitWidth="101.0" layoutX="244.0" layoutY="201.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="63.0" fitWidth="101.0" layoutX="41.0" layoutY="201.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="63.0" fitWidth="101.0" layoutX="243.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="doneButton" layoutX="271.0" layoutY="344.0" mnemonicParsing="false" onAction="#done" text="Done" />
+      <MenuButton fx:id="itemOne" layoutX="50.0" layoutY="121.0" mnemonicParsing="false" text="Equip To:">
+        <items>
+          <MenuItem fx:id="equipToPlayerOne" mnemonicParsing="false" onAction="#equipItemOne" text="Player One" />
+            <MenuItem fx:id="equipToPlayerTwo" mnemonicParsing="false" onAction="#equipItemOne" text="Player Two" />
+            <MenuItem fx:id="equipToPlayerThree" mnemonicParsing="false" onAction="#equipItemOne" text="Player Three" />
+            <MenuItem fx:id="unequipItemOne" mnemonicParsing="false" onAction="#equipItemOne" text="Unequip" />
+        </items>
+      </MenuButton>
+      <MenuButton fx:id="itemTwo" layoutX="253.0" layoutY="121.0" mnemonicParsing="false" text="Equip To:">
+         <items>
+            <MenuItem fx:id="equipToPlayerOne" mnemonicParsing="false" onAction="#equipItemTwo" text="Player One" />
+            <MenuItem fx:id="equipToPlayerTwo" mnemonicParsing="false" onAction="#equipItemTwo" text="Player Two" />
+            <MenuItem fx:id="equipToPlayerThree" mnemonicParsing="false" onAction="#equipItemTwo" text="Player Three" />
+            <MenuItem fx:id="unequipItemTwo" mnemonicParsing="false" onAction="#equipItemTwo" text="Unequip" />
+         </items>
+      </MenuButton>
+      <MenuButton fx:id="itemThree" layoutX="454.0" layoutY="121.0" mnemonicParsing="false" text="Equip To:">
+         <items>
+            <MenuItem fx:id="equipToPlayerOne" mnemonicParsing="false" onAction="#equipItemThree" text="Player One" />
+            <MenuItem fx:id="equipToPlayerTwo" mnemonicParsing="false" onAction="#equipItemThree" text="Player Two" />
+            <MenuItem fx:id="equipToPlayerThree" mnemonicParsing="false" onAction="#equipItemThree" text="Player Three" />
+            <MenuItem fx:id="unequipItemThree" mnemonicParsing="false" onAction="#equipItemThree" text="Unequip" />
+         </items>
+      </MenuButton>
+      <MenuButton fx:id="itemFour" layoutX="50.0" layoutY="291.0" mnemonicParsing="false" text="Equip To:">
+         <items>
+            <MenuItem fx:id="equipToPlayerOne" mnemonicParsing="false" onAction="#equipItemFour" text="Player One" />
+            <MenuItem fx:id="equipToPlayerTwo" mnemonicParsing="false" onAction="#equipItemFour" text="Player Two" />
+            <MenuItem fx:id="equipToPlayerThree" mnemonicParsing="false" onAction="#equipItemFour" text="Player Three" />
+            <MenuItem fx:id="unequipItemFour" mnemonicParsing="false" onAction="#equipItemFour" text="Unequip" />
+         </items>
+      </MenuButton>
+      <MenuButton fx:id="itemFive" layoutX="253.0" layoutY="291.0" mnemonicParsing="false" text="Equip To:">
+         <items>
+            <MenuItem fx:id="equipToPlayerOne" mnemonicParsing="false" onAction="#equipItemFive" text="Player One" />
+            <MenuItem fx:id="equipToPlayerTwo" mnemonicParsing="false" onAction="#equipItemFive" text="Player Two" />
+            <MenuItem fx:id="equipToPlayerThree" mnemonicParsing="false" onAction="#equipItemFive" text="Player Three" />
+            <MenuItem fx:id="unequipItemFive" mnemonicParsing="false" onAction="#equipItemFive" text="Unequip" />
+         </items>
+      </MenuButton>
+      <MenuButton fx:id="itemSix" layoutX="454.0" layoutY="291.0" mnemonicParsing="false" text="Equip To:">
+         <items>
+            <MenuItem fx:id="equipToPlayerOne" mnemonicParsing="false" onAction="#equipItemSix" text="Player One" />
+            <MenuItem fx:id="equipToPlayerTwo" mnemonicParsing="false" onAction="#equipItemSix" text="Player Two" />
+            <MenuItem fx:id="equipToPlayerThree" mnemonicParsing="false" onAction="#equipItemSix" text="Player Three" />
+            <MenuItem fx:id="unequipItemSix" mnemonicParsing="false" onAction="#equipItemSix" text="Unequip" />
+         </items>
+      </MenuButton>
+      <ImageView fitHeight="63.0" fitWidth="101.0" layoutX="41.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="63.0" fitWidth="101.0" layoutX="445.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="63.0" fitWidth="101.0" layoutX="445.0" layoutY="201.0" pickOnBounds="true" preserveRatio="true" />
+      <Separator layoutX="181.0" layoutY="1.0" orientation="VERTICAL" prefHeight="400.0" prefWidth="5.0" />
+      <Label layoutX="244.0" layoutY="-3.0" prefHeight="32.0" prefWidth="101.0" text="Inventory">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

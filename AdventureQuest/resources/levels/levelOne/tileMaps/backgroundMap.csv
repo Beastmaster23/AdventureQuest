@@ -1,0 +1,17 @@
+800,600,40,40
+resources/tiles/logansTiles/blankGrassBackground.png,resources/tiles/logansTiles/longGrass.png,resources/tiles/largerDirtPatchTiles/1.png,resources/tiles/largerDirtPatchTiles/2.png,resources/tiles/largerDirtPatchTiles/3.png,resources/tiles/largerDirtPatchTiles/4.png,resources/tiles/largerDirtPatchTiles/5.png,resources/tiles/largerDirtPatchTiles/6.png,resources/tiles/largerDirtPatchTiles/7.png,resources/tiles/largerDirtPatchTiles/8.png,resources/tiles/largerDirtPatchTiles/9.png,resources/tiles/largerDirtPatchTiles/10.png,resources/tiles/largerDirtPatchTiles/11.png,resources/tiles/largerDirtPatchTiles/12.png
+8,9,1,0,10,11,12,13,0,0,0,0,0,0,0,0,0,1,6,7
+12,13,1,0,0,0,1,1,0,0,0,0,0,1,0,0,1,1,10,11
+5,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0
+9,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,1,0
+13,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+0,1,1,1,0,0,0,0,2,3,4,5,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,6,7,8,9,0,0,0,0,0,0,0,0
+4,5,0,0,0,0,0,0,10,11,12,13,0,0,0,0,0,0,1,1
+8,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+12,13,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1
+0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0
+0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,3,4
+0,0,0,0,2,3,4,4,4,4,5,0,0,0,0,1,0,6,7,8

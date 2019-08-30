@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <SplitPane dividerPositions="0.20735785953177258" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <Button fx:id="optionsButton" layoutX="25.0" layoutY="75.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="75.0" text="Options" />
+                  <Button fx:id="quitButton" layoutX="23.0" layoutY="298.0" mnemonicParsing="false" onAction="#quitGame" prefHeight="25.0" prefWidth="75.0" text="Quit" />
+                  <Label alignment="CENTER" layoutX="25.0" layoutY="336.0" prefHeight="8.0" prefWidth="75.0" text="Interco and Pals">
+                     <font>
+                        <Font size="9.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="continueButton" layoutX="25.0" layoutY="25.0" mnemonicParsing="false" onAction="#continueGame" prefHeight="25.0" prefWidth="75.0" text="Continue" />
+                  <Button fx:id="itemsButton" layoutX="25.0" layoutY="125.0" mnemonicParsing="false" onAction="#openInventory" prefHeight="25.0" prefWidth="75.0" text="Items" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <GridPane layoutX="20.0" layoutY="38.0" prefHeight="373.0" prefWidth="471.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                           <children>
+                              <ProgressBar fx:id="primaryPlayerHealthBar" layoutX="236.0" layoutY="46.0" prefWidth="200.0" progress="0.0" />
+                              <Label layoutX="236.0" layoutY="32.0" text="HP:" />
+                              <Label layoutX="164.0" layoutY="14.0" text="Label" />
+                              <Label fx:id="playerOneCurrentHP" layoutX="439.0" layoutY="39.0" prefHeight="14.0" prefWidth="18.0" text="Label" />
+                              <Label fx:id="playerOneMaxHP" layoutX="449.0" layoutY="49.0" prefHeight="14.0" prefWidth="18.0" text="Label" />
+                              <Separator layoutX="448.0" layoutY="51.0" prefHeight="5.0" prefWidth="18.0" />
+                              <ImageView fitHeight="68.0" fitWidth="75.0" layoutX="14.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../resources/players/MarkRobinson.jpg" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
+                           <children>
+                              <ProgressBar fx:id="secondPlayerHealthBar" layoutX="236.0" layoutY="45.0" prefWidth="200.0" progress="0.0" />
+                              <Label layoutX="236.0" layoutY="31.0" text="HP:" />
+                              <Label layoutX="164.0" layoutY="14.0" text="Label" />
+                              <Label fx:id="playerTwoCurrentHP" layoutX="440.0" layoutY="37.0" prefHeight="14.0" prefWidth="18.0" text="Label" />
+                              <Label fx:id="playerTwoMaxHP" layoutX="449.0" layoutY="49.0" prefHeight="14.0" prefWidth="18.0" text="Label" />
+                              <Separator layoutX="443.0" layoutY="51.0" prefHeight="5.0" prefWidth="18.0" />
+                              <ImageView fitHeight="68.0" fitWidth="75.0" layoutX="14.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true" />
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2">
+                           <children>
+                              <ProgressBar fx:id="thirdPlayerHealthBar" layoutX="236.0" layoutY="45.0" prefWidth="200.0" progress="0.0" />
+                              <Label layoutX="236.0" layoutY="31.0" text="HP:" />
+                              <Label layoutX="164.0" layoutY="14.0" text="Label" />
+                              <Label fx:id="playerThreeCurrentHP" layoutX="442.0" layoutY="36.0" prefHeight="14.0" prefWidth="18.0" text="Label" />
+                              <Label fx:id="playerThreeMaxHP" layoutX="449.0" layoutY="49.0" prefHeight="14.0" prefWidth="18.0" text="Label" />
+                              <Separator layoutX="449.0" layoutY="47.0" prefHeight="5.0" prefWidth="18.0" />
+                              <ImageView fitHeight="68.0" fitWidth="75.0" layoutX="12.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true" />
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </GridPane>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

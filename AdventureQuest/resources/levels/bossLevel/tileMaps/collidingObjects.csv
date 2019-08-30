@@ -1,0 +1,17 @@
+800,600,40,40
+resources/tiles/logansTiles/shrub.png,resources/tiles/castleTiles/1.png,resources/tiles/castleTiles/2.png,resources/tiles/castleTiles/3.png,resources/tiles/castleTiles/4.png,resources/tiles/castleTiles/5.png,resources/tiles/castleTiles/6.png,resources/tiles/castleTiles/7.png,resources/tiles/castleTiles/8.png,resources/tiles/castleTiles/9.png,resources/tiles/castleTiles/10.png,resources/tiles/castleTiles/11.png,resources/tiles/castleTiles/12.png,resources/tiles/castleTiles/13.png,resources/tiles/castleTiles/14.png,resources/tiles/castleTiles/15.png,resources/tiles/castleTiles/16.png,resources/tiles/castleTiles/17.png,resources/tiles/castleTiles/18.png,resources/tiles/castleTiles/19.png,resources/tiles/castleTiles/20.png,resources/tiles/castleTiles/21.png,resources/tiles/castleTiles/22.png,resources/tiles/castleTiles/23.png,resources/tiles/castleTiles/24.png,resources/tiles/statueTiles/1.png,resources/tiles/statueTiles/2.png,resources/tiles/statueTiles/3.png,resources/tiles/statueTiles/4.png,resources/tiles/statueTiles/5.png,resources/tiles/statueTiles/6.png,resources/tiles/statueTiles/7.png,resources/tiles/statueTiles/8.png,resources/tiles/statueTiles/9.png,resources/tiles/statueTiles/10.png,resources/tiles/statueTiles/11.png,resources/tiles/statueTiles/12.png
+-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+-1,-1,-1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+-1,-1,-1,-1,-1,-1,-1,-1,-1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1
+-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+-1,-1,-1,-1,25,26,27,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+-1,-1,-1,0,28,29,30,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+-1,-1,-1,0,31,32,33,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+-1,-1,-1,0,34,35,36,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+-1,-1,-1,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,0,-1,-1,-1
+-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,-1,-1,-1,-1,-1
+-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1

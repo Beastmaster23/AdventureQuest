@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane fx:id="mainMenuBorderPane" prefHeight="700" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <StackPane prefHeight="150.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fx:id="mainMenuBackground" fitHeight="700.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true" />
+            <VBox alignment="TOP_CENTER" spacing="25.0">
+               <children>
+                  <ImageView fx:id="titleImagView" fitHeight="100.0" fitWidth="400.0" pickOnBounds="true" preserveRatio="true" />
+                  <Button fx:id="startButton" mnemonicParsing="false" onAction="#navigateToMainGame" text="Play">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+               </children>
+               <padding>
+                  <Insets top="100.0" />
+               </padding>
+            </VBox>
+         </children>
+      </StackPane>
+   </center>
+</BorderPane>
